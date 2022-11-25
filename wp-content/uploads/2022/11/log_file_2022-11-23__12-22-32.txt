@@ -1,0 +1,14 @@
+
+---Downloaded files---
+The import files for: Default (Elementor) were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/wordpress
+Data file = C:\xampp\htdocs\wordpress/wp-content/uploads/2022/11/demo-content-import-file_2022-11-23__12-22-32.xml
+Widget file = not defined!
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---ocdi/after_import---
+

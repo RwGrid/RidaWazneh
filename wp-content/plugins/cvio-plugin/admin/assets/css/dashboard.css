@@ -1,0 +1,185 @@
+.cvio-dashboard, .cvio-dashboard p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555d65;
+}
+
+.cvio-dashboard .notice, .cvio-dashboard .notice p {
+  font-size: 0.85rem;
+}
+
+.cvio-dashboard-header .nav-tab-wrapper {
+  position: relative;
+  top: 1px;
+  font-size: 1.1538rem;
+  line-height: 1.5;
+  border-bottom: none;
+}
+
+.cvio-dashboard-header .nav-tab-wrapper a {
+  display: block;
+  padding: 1rem 1.8rem;
+  text-decoration: none;
+  -webkit-box-shadow: none !important;
+  -ms-box-shadow: none !important;
+  box-shadow: none !important;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #dee0e3;
+  background: #ebeced;
+  color: #23382d;
+  font-weight: 600;
+  -webkit-transition: color 0.3s ease, background-color 0.3s ease;
+  -ms-transition: color 0.3s ease, background-color 0.3s ease;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.cvio-dashboard-header .nav-tab-wrapper a:first-child {
+  margin-left: 0px;
+}
+
+.cvio-dashboard-header .nav-tab-wrapper a.nav-tab-active {
+  background: #fff;
+  border-bottom-color: #fff;
+  position: relative;
+}
+
+.cvio-dashboard-header .nav-tab-wrapper a.nav-tab-active:before {
+  content: '';
+  background: #2371b1;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  right: 1px;
+  height: 4px;
+}
+
+.cvio-dashboard-wrapper {
+  padding: 3.5rem;
+  border: 1px solid #dee0e3;
+  background-color: #fff;
+  margin-right: 2rem;
+}
+.cvio-dashboard-wrapper h2 {
+  padding-bottom: 0.75em;
+  border-bottom: 1px solid #eee;
+}
+.cvio-dashboard-wrapper h2:first-child, .cvio-dashboard-wrapper h1:first-child {
+  margin-top: 0;
+}
+.cvio-dashboard-wrapper .notice {
+  margin-left: 0;
+  margin-right: 0;
+}
+.cvio-dashboard-wrapper .button {
+  line-height: 3.6rem;
+  height: 3.6rem;
+  padding: 0 1rem;
+  border-radius: 2px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  text-align: center;
+}
+.cvio-dashboard-activation table th {
+  vertical-align: top;
+  line-height: 30px;
+  padding-right: 30px;
+  white-space: nowrap;
+  font-size: 0.9rem;
+}
+.cvio-dashboard-activation table td {
+  vertical-align: top;
+  line-height: 30px;
+  padding-bottom: 20px;
+}
+.cvio-dashboard-activation table td p.submit {
+  line-height: normal;
+  margin: 0;
+  padding: 0;
+}
+.cvio-dashboard-activation table td .description {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #666;
+  line-height: 1.5;
+  max-width: 300px;
+  padding-top: 10px;
+}
+.cvio-dashboard-activation ul + .buttons {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+.cvio-dashboard-activation ul + .buttons .submit {
+  display: inline;
+}
+
+.cvio-dashboard-wrapper::after {
+  display: block;
+  clear: both;
+  float: none;
+  content: '';
+}
+.cvio-dashboard-wrapper .image-container {
+  float: right;
+  width: 35%;
+}
+.cvio-dashboard-wrapper .content-container {
+  max-width: 55%;
+}
+.cvio-dashboard-wrapper img {
+  max-width: 90%;
+}
+
+.cvio-dashboard-help .cvio-dashboard-list {
+  margin-top: 40px;
+}
+
+.cvio-dashboard-help .cvio-dashboard-list h4 .dashicons {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+  position: relative;
+  top: -1px;
+}
+
+.cvio-dashboard-general h1 > span {
+  position: relative;
+}
+.cvio-dashboard-general .sticker {
+  position: absolute;
+  top: -22px;
+  left: 102%;
+  padding: 5px 7px;
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 500;
+  z-index: 2;
+  border-radius: 1px;
+  white-space: nowrap;
+}
+.cvio-dashboard-general .sticker.sticker-not {
+  background: #f05c49;
+}
+.cvio-dashboard-general .sticker.sticker-yes {
+  background: #55a55a;
+}
+
+.cvio-dashboard-footer {
+  margin-top: 3.6rem;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 0.75rem;
+  width: 100%;
+  text-align: center;
+}
+
+.appearance_page_tgmpa-install-plugins .wrap p > span.code,
+.appearance_page_tgmpa-install-plugins .tgmpa p > span.code {
+  display: none !important;
+}

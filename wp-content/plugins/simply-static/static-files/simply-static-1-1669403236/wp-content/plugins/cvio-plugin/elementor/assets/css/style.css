@@ -1,0 +1,17 @@
+.elementor-editor-active .gutter-sizer {
+	display: none;
+}
+.elementor-editor-active.logged-in .wrapper {
+	padding-top: 150px;
+}
+.background-enabled.elementor-editor-active.logged-in .wrapper {
+	padding-top: 30px;
+}
+@media (max-width: 1199px) {
+.elementor-editor-active .section.started.section-title .started-content .h-subtitle, 
+.elementor-editor-active .section.started.section-title .started-content .typed-subtitle, 
+.elementor-editor-active .section.started.section-title .started-content .typed-bread {
+	padding-left: 35px;
+	left: 50%;
+}
+}
