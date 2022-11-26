@@ -1,0 +1,2 @@
+2022-11-25T22:09:53+00:00 CRITICAL Out of memory (allocated 73400320) (tried to allocate 20480 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\integrations\maxmind-geolocation\class-wc-integration-maxmind-geolocation.php on line 18
+
