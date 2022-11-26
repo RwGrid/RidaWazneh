@@ -62,8 +62,8 @@
 			<div class="head-top">
 
 				<!-- menu button -->
-				<a href="#" class="menu-btn"><span></span></a>
-
+<!-- 				<a href="#" class="menu-btn"><span></span></a>
+ -->
 				<!-- logo -->
 				<?php if ( $header_logo_type == 0  ) : ?>
 <!-- 				<div class="logo <?php if ( $header_logo_btn ) : ?>hover-masks-logo<?php endif; ?>">
