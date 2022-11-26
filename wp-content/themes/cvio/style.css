@@ -847,7 +847,7 @@ select {
 .content-sidebar select, .wp-block-archives-dropdown select {
 	-webkit-appearance: none;
 	-webkit-border-radius: 0px;
-	background-image: url(/https://rwgrid.github.io/RidaWazneh/wp-content/themes/cvio/assets/images/arrow.svg);
+	background-image: url(http://localhost/https:/rwgrid.github.io/RidaWazneh/wp-content/themes/cvio/assets/images/arrow.svg);
 	background-position: calc(100% - 15px) 50%;
 	background-size: 11px;
 	background-repeat: no-repeat;
@@ -5561,7 +5561,7 @@ a.comment-reply-link {
 .search-submit {
 	width: 14px;
 	height: 31px;
-	background: url(/https://rwgrid.github.io/RidaWazneh/wp-content/themes/cvio/assets/images/search.svg) no-repeat center center;
+	background: url(http://localhost/https:/rwgrid.github.io/RidaWazneh/wp-content/themes/cvio/assets/images/search.svg) no-repeat center center;
 	background-size: contain;
 	font-size: 0;
 	opacity: .7;
